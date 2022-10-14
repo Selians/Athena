@@ -2,7 +2,7 @@
 version = 4
 #The max amount of occupations a user can have active at a time.
 #Default is 3, set to 0 to disable and allow any amount of occupations to be joined.
-maxOccupations = 3
+maxOccupations = 4
 #Default false. If set to true, when the player joins the server, they will join *ALL* 
 #possible professions, disregarding 'maxOccupations'.
 autoJoinProfessions = true

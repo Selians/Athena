@@ -1,14 +1,6 @@
 [
   {
-    "biomeName": "biomesoplenty:forested_field",
-    "chance": 10
-  },
-  {
-    "biomeName": "biomesoplenty:dead_forest",
-    "chance": 2
-  },
-  {
-    "biomeName": "biomesoplenty:mediterranean_forest",
+    "biomeName": "biomesoplenty:wetland",
     "chance": 5
   },
   {
@@ -16,8 +8,16 @@
     "chance": 5
   },
   {
-    "biomeName": "biomesoplenty:wetland",
+    "biomeName": "biomesoplenty:mediterranean_forest",
     "chance": 5
+  },
+  {
+    "biomeName": "biomesoplenty:dead_forest",
+    "chance": 2
+  },
+  {
+    "biomeName": "biomesoplenty:forested_field",
+    "chance": 10
   },
   {
     "biomeName": "biomesoplenty:old_growth_dead_forest",

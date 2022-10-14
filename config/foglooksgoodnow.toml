@@ -1,0 +1,21 @@
+
+[Client]
+	#Defines the global default fog start value
+	#Range: 0.01 ~ 100.0
+	globalfogstart = 0.0
+	#Defines the global default fog density value. At 1.0, the fog end is at render distance. At 0, there is no fog
+	#Range: 0.01 ~ 100.0
+	globalfogdensity = 1.0
+	#Defines a specific fog start and density per biome. Entries are comma separated, structured like "<biomeid>,<fog start>,<fog end>"
+	#
+	#Example: "minecraft:plains,0.1,1.2", "minecraft:nether_wastes,0,0.5"
+	biomeFogMap = []
+	#Defines if fog will darken and get more dense when underground.
+	usecavefog = true
+	#Defines the density of fog in caves. If cave fog is active, this will be multiplied with the current fog density.
+	#Range: 0.01 ~ 100.0
+	cavefogdensity = 1.0
+	#Defines the color of cave fog, in the decimal color format. If cave fog is active, this will be multiplied with the current fog color.
+	#Range: 0 ~ 16777215
+	caveFogColor = 3355443
+

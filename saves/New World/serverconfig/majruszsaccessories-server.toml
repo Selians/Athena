@@ -14,9 +14,6 @@
 	#Luck bonus during fishing.
 	#Range: 1 ~ 10
 	fishing_luck = 3
-	#Chance to drop Angler's Trophy from fishing.
-	#Range: 0.0 ~ 1.0
-	drop_chance = 0.00375
 	#Price the villager will pay for this accessory (requires world/game restart).
 	#Range: 1 ~ 32
 	trade_price = 7

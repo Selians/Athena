@@ -2,13 +2,13 @@
 	/* Reroll item.  Pair an armor piece with Spoorn Armor Attributes on it with this item (vanilla or modded)
 	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
 	*/
-	"rerollItem": "minecraft:lapis_lazuli",
+	"rerollItem": "create:rosequartz",
 	// Reroll level cost [default = 0]
 	"rerollLevelCost": 0,
 	/* Upgrade item.  Pair an armor piece with this item in an Anvil to roll bonus attributes and only adds
 	   stats onto the armor if it is an upgrade [default = minecraft:diamond]
 	*/
-	"upgradeItem": "minecraft:diamond",
+	"upgradeItem": "minecraft:amethyst",
 	// Upgrade level cost [default = 1]
 	"upgradeLevelCost": 1,
 	// Apply Attributes Automatically on Inventory Tick [default = true]

@@ -1,10 +1,10 @@
 [
   {
-    "biomeName": "minecraft:savanna",
+    "biomeName": "minecraft:savanna_plateau",
     "chance": 20
   },
   {
-    "biomeName": "minecraft:savanna_plateau",
+    "biomeName": "minecraft:savanna",
     "chance": 20
   },
   {

@@ -4,11 +4,11 @@
     "chance": 25
   },
   {
-    "biomeName": "minecraft:bamboo_jungle",
+    "biomeName": "minecraft:jungle",
     "chance": 20
   },
   {
-    "biomeName": "minecraft:jungle",
+    "biomeName": "minecraft:bamboo_jungle",
     "chance": 20
   }
 ]

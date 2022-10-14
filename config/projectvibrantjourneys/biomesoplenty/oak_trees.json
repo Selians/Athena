@@ -1,18 +1,38 @@
 [
   {
-    "biomeName": "biomesoplenty:floodplain ",
-    "chance": 2
+    "biomeName": "biomesoplenty:wetland",
+    "chance": 5
   },
   {
-    "biomeName": "biomesoplenty:dead_forest",
-    "chance": 2
+    "biomeName": "biomesoplenty:lavender_field",
+    "chance": 1
   },
   {
-    "biomeName": "biomesoplenty:prairie",
+    "biomeName": "biomesoplenty:maple_woods",
+    "chance": 20
+  },
+  {
+    "biomeName": "biomesoplenty:bamboo_grove",
     "chance": 10
   },
   {
-    "biomeName": "biomesoplenty:woodland",
+    "biomeName": "biomesoplenty:orchard",
+    "chance": 5
+  },
+  {
+    "biomeName": "biomesoplenty:fungal_jungle",
+    "chance": 5
+  },
+  {
+    "biomeName": "biomesoplenty:old_growth_woodland",
+    "chance": 20
+  },
+  {
+    "biomeName": "biomesoplenty:seasonal_forest",
+    "chance": 10
+  },
+  {
+    "biomeName": "biomesoplenty:mystic_grove",
     "chance": 5
   },
   {
@@ -20,47 +40,27 @@
     "chance": 2
   },
   {
-    "biomeName": "biomesoplenty:mystic_grove",
+    "biomeName": "biomesoplenty:woodland",
     "chance": 5
   },
   {
-    "biomeName": "biomesoplenty:seasonal_forest",
+    "biomeName": "biomesoplenty:prairie",
     "chance": 10
   },
   {
-    "biomeName": "biomesoplenty:old_growth_woodland",
-    "chance": 20
+    "biomeName": "biomesoplenty:dead_forest",
+    "chance": 2
   },
   {
-    "biomeName": "biomesoplenty:fungal_jungle",
-    "chance": 5
+    "biomeName": "biomesoplenty:floodplain ",
+    "chance": 2
   },
   {
-    "biomeName": "biomesoplenty:orchard",
-    "chance": 5
-  },
-  {
-    "biomeName": "biomesoplenty:bamboo_grove",
-    "chance": 10
-  },
-  {
-    "biomeName": "biomesoplenty:maple_woods",
-    "chance": 20
-  },
-  {
-    "biomeName": "biomesoplenty:lavender_field",
-    "chance": 1
-  },
-  {
-    "biomeName": "biomesoplenty:wetland",
+    "biomeName": "biomesoplenty:lavender_forest",
     "chance": 5
   },
   {
     "biomeName": "biomesoplenty:snowy_maple_woods",
-    "chance": 5
-  },
-  {
-    "biomeName": "biomesoplenty:lavender_forest",
     "chance": 5
   }
 ]

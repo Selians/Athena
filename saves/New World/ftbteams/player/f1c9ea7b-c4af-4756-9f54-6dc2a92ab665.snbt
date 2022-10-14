@@ -7,7 +7,7 @@
 	}
 	properties: {
 		"ftbteams:display_name": "_Acheron"
-		"ftbteams:color": "#E9FF59"
+		"ftbteams:color": "#FF59A6"
 		"ftbteams:description": ""
 		"ftbteams:free_to_join": 0b
 	}

@@ -1,6 +1,14 @@
 [
   {
-    "biomeName": "pioneer:aspen_grove",
+    "biomeName": "pioneer:verdant_sands",
+    "chance": 5
+  },
+  {
+    "biomeName": "pioneer:flooded_forest",
+    "chance": 20
+  },
+  {
+    "biomeName": "pioneer:overgrown_spires",
     "chance": 10
   },
   {
@@ -8,16 +16,8 @@
     "chance": 5
   },
   {
-    "biomeName": "pioneer:overgrown_spires",
+    "biomeName": "pioneer:aspen_grove",
     "chance": 10
-  },
-  {
-    "biomeName": "pioneer:flooded_forest",
-    "chance": 20
-  },
-  {
-    "biomeName": "pioneer:verdant_sands",
-    "chance": 5
   },
   {
     "biomeName": "pioneer:pine_meadows",
