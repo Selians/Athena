@@ -1,0 +1,78 @@
+
+[AdventurersGuide]
+	#Extra multiplier for number of items acquired from chests.
+	#Range: 0.0 ~ 10.0
+	chest_size_bonus = 1.2
+	#Chance for Adventurer's Guide to spawn in any chest.
+	#Range: 0.0 ~ 1.0
+	spawn_chance = 0.025
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[AnglerTrophy]
+	#Luck bonus during fishing.
+	#Range: 1 ~ 10
+	fishing_luck = 3
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[CertificateOfTaming]
+	#Bonus health, damage, movement speed and jump height for tamed animals.
+	#Range: 0.0 ~ 10.0
+	animal_bonus = 0.2
+	#Chance for Certificate of Taming to drop when taming animals.
+	#Range: 0.0 ~ 1.0
+	drop_chance = 0.01
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[IdolOfFertility]
+	#Chance to spawn twins when breeding animals.
+	#Range: 0.0 ~ 1.0
+	twins_chance = 0.25
+	#Chance for Idol of Fertility to drop when breeding animals.
+	#Range: 0.0 ~ 1.0
+	drop_chance = 0.005
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[LuckyRock]
+	#Chance to drop extra items when mining stone.
+	#Range: 0.0 ~ 1.0
+	extra_loot_chance = 0.03
+	#Chance for Lucky Rock to drop when mining stone.
+	#Range: 0.0 ~ 1.0
+	drop_chance = 2.0E-4
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[SecretIngredient]
+	#Duration penalty for created enhanced potions.
+	#Range: 0.0 ~ 1.0
+	potion_duration_penalty = 0.5
+	#Extra potion level for created enhanced potions.
+	#Range: 1 ~ 10
+	potion_extra_amplifier = 1
+	#Chance for Secret Ingredient to drop from Witch.
+	#Range: 0.0 ~ 1.0
+	drop_chance = 0.025
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+
+[TamedPotatoBeetle]
+	#Chance to double crops when harvesting.
+	#Range: 0.0 ~ 1.0
+	double_crops_chance = 0.25
+	#Chance for Tamed Potato Beetle to drop from crops.
+	#Range: 0.0 ~ 1.0
+	drop_chance = 0.002
+	#Price the villager will pay for this accessory (requires world/game restart).
+	#Range: 1 ~ 32
+	trade_price = 7
+

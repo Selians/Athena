@@ -1,0 +1,24 @@
+#Renaming any item in an anvil no longer costs any enchantment levels at all. Can be restricted to only name tags.
+#Allowed Values: ALL, NAME_TAGS, NONE
+free_renames = "ALL"
+#The maximum amount of enchantment level allowed to be spent in an anvil. Everything above will be 'Too Expensive!' and will be disallowed.
+#This option isn't that impactful anymore when prior work penalties are disabled; repair costs will basically never reach such a high value anymore.
+#Range: > -2147483648
+max_anvil_repair_cost = 40
+#When combining enchanted items in an anvil, prevent an enchantment level higher than the max level value for that enchantment from being lowered to said max value.
+no_anvil_max_level_limit = true
+#Chance the anvil will break into chipped or damaged variant, or break completely after using. Value is set to 0.12 in vanilla.
+#Range: 0.0 ~ 1.0
+anvil_break_chance = 0.05
+#Solely renaming items in an anvil will never cause the anvil to break.
+risk_free_anvil_renaming = true
+#Repairing items in an anvil multiple times will not make subsequent repairs more and more expensive.
+disable_prior_work_penalty = true
+#Edit name tags without cost nor anvil, simply by sneak + right-clicking.
+edit_name_tags_no_anvil = true
+#The naming field in anvils and the name tag gui will support formatting codes for setting custom text colors and styles.
+#Check out the Minecraft Wiki for all available formatting codes and their usage: https://minecraft.fandom.com/wiki/Formatting_codes#Usage
+renaming_supports_formatting = true
+#Allow using iron blocks to repair an anvil by one stage. Can be automated using dispensers.
+anvil_repairing = true
+

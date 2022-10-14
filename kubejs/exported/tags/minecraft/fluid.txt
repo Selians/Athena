@@ -1,0 +1,85 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 14, 2022, 12:01:40 PM
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create_confectionery:black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_black_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_white_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_hot_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_caramel (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+- create_confectionery:flowing_ruby_chocolate (from create-confectionery1.19.2_v1.0.8.jar)
+
+#forge:biodiesel
+- immersiveengineering:biodiesel (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.1.39-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.1.39-universal.jar)
+
+#forge:herbicide
+- immersiveengineering:herbicide (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.f.jar)
+- create:tea (from create-1.19.2-0.5.0.f.jar)
+
+#forge:plantoil
+- immersiveengineering:plantoil (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:gaseous
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#biomesoplenty:blood
+- biomesoplenty:blood (from BiomesOPlenty-1.19.2-17.1.1.150.jar)
+- biomesoplenty:flowing_blood (from BiomesOPlenty-1.19.2-17.1.1.150.jar)
+
+#forge:ethanol
+- immersiveengineering:ethanol (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.f.jar)
+- create:chocolate (from create-1.19.2-0.5.0.f.jar)
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.f.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.f.jar)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+- decorative_blocks:flowing_thatch (from Decorative Blocks-forge-1.19.2-3.0.0.jar)
+
+#forge:honey
+- create:flowing_honey (from create-1.19.2-0.5.0.f.jar)
+- create:honey (from create-1.19.2-0.5.0.f.jar)
+
+#forge:creosote
+- immersiveengineering:creosote (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:concrete
+- immersiveengineering:concrete (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
+
+#forge:potion
+- immersiveengineering:potion (from ImmersiveEngineering-1.19.2-9.0.0-153.jar)
