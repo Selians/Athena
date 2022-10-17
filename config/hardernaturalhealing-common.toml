@@ -11,7 +11,7 @@
 	maxBonusHitPointTotems = 300
 	#healingPerSecond
 	#Range: 0.0 ~ 10.0
-	healingPerSecond = 0.25
+	healingPerSecond = 0.15
 	#healthAfterDeath
 	#Range: 0 ~ 20
 	healthAfterDeath = 20
