@@ -4,7 +4,7 @@
 	#Enable player bonus hp by crystals.
 	crystalsAddHealth = true
 	#Enable player bonus hp by xp.
-	xpAddHealth = true
+	xpAddHealth = false
 	#Enable player regen hp by crystals.
 	crystalsRegenHealth = true
 	#Enable pet add hp by crystals.
@@ -12,9 +12,9 @@
 	#Enable player add damage by crystals.
 	crystalsAddDamage = true
 	#Enable ore gen of health crystals. Still drops as loot.
-	hpCrystalsOreGen = true
+	hpCrystalsOreGen = false
 	#Enable ore gen of power crystals. Still drops as loot.
-	powerCrystalsOreGen = true
+	powerCrystalsOreGen = false
 	#Mobs will gain bonus health with difficulty.
 	mobHpIncrease = true
 	#Mobs will gain bonus damage with difficulty.

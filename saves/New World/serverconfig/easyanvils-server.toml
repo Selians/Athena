@@ -1,6 +1,6 @@
 #Renaming any item in an anvil no longer costs any enchantment levels at all. Can be restricted to only name tags.
-#Allowed Values: ALL, NAME_TAGS, NONE
-free_renames = "ALL"
+#Allowed Values: OFF, ALL_ITEMS, NAME_TAGS_ONLY
+free_renames = "ALL_ITEMS"
 #The maximum amount of enchantment level allowed to be spent in an anvil. Everything above will be 'Too Expensive!' and will be disallowed.
 #This option isn't that impactful anymore when prior work penalties are disabled; repair costs will basically never reach such a high value anymore.
 #Range: > -2147483648
@@ -12,8 +12,6 @@ no_anvil_max_level_limit = true
 anvil_break_chance = 0.05
 #Solely renaming items in an anvil will never cause the anvil to break.
 risk_free_anvil_renaming = true
-#Repairing items in an anvil multiple times will not make subsequent repairs more and more expensive.
-disable_prior_work_penalty = true
 #Edit name tags without cost nor anvil, simply by sneak + right-clicking.
 edit_name_tags_no_anvil = true
 #The naming field in anvils and the name tag gui will support formatting codes for setting custom text colors and styles.
@@ -21,4 +19,13 @@ edit_name_tags_no_anvil = true
 renaming_supports_formatting = true
 #Allow using iron blocks to repair an anvil by one stage. Can be automated using dispensers.
 anvil_repairing = true
+#Changes how repairing items in an anvil multiple times will affect the cost of subsequent repairs. In vanilla the penalty doubles with every repair. When set to fixed a constant multiplier will instead be added with every repair.
+#Allowed Values: OFF, VANILLA, FIXED
+prior_work_penalty = "FIXED"
+#Always allow renaming and repairing items, even when the cost exceeds the max anvil repair cost. The cost will then be capped just below the max cost. This is already done in vanilla for renaming.
+#This also prevents the prior work penalty from increasing when the item has only been renamed or repaired.
+always_rename_and_repair = true
+#Multiplier to use when "prior_work_penalty" is set to "FIXED". Every subsequent operation will increase by this value in levels.
+#Range: > 1
+prior_work_penalty_multiplier = 3
 

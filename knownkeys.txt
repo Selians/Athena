@@ -145,3 +145,7 @@ key.structurize.rotate_ccw
 key.structurize.mirror
 key.structurize.place
 cos.key.opencosarmorinventory
+key.origins.primary_active
+key.origins.secondary_active
+key.origins.view_origin
+key.ftbquests.quests

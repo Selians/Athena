@@ -113,5 +113,5 @@
 [blights]
 	#whether the purple flame should render on blights or not.
 	#This does not change whether the mob is a blight, only hides the effect.
-	render = false
+	render = true
 
