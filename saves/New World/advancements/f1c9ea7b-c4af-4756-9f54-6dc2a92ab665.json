@@ -139,6 +139,7 @@
       "shrubland": "2022-10-21 14:25:25 +0200",
       "rocky_shrubland": "2022-10-21 14:25:48 +0200",
       "highland": "2022-10-21 14:16:46 +0200",
+      "jade_cliffs": "2022-10-24 21:49:30 +0200",
       "clover_patch": "2022-10-21 18:27:17 +0200",
       "mystic_grove": "2022-10-21 14:27:52 +0200",
       "orchard": "2022-10-21 14:25:06 +0200",
@@ -154,6 +155,12 @@
     },
     "done": false
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2022-10-24 22:32:21 +0200"
+    },
+    "done": true
+  },
   "morevillagers:root": {
     "criteria": {
       "always": "2022-10-21 14:16:26 +0200"
@@ -163,6 +170,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:river": "2022-10-21 14:25:22 +0200",
+      "minecraft:forest": "2022-10-27 21:37:55 +0200",
       "minecraft:old_growth_spruce_taiga": "2022-10-21 14:27:55 +0200"
     },
     "done": false
@@ -227,6 +235,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/main_root": {
+    "criteria": {
+      "has_item": "2022-10-27 21:28:42 +0200"
+    },
+    "done": true
+  },
   "comforts:hammock_red_from_white": {
     "criteria": {
       "has_the_recipe": "2022-10-21 14:16:20 +0200"
@@ -277,7 +291,8 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "taiga": "2022-10-21 14:24:42 +0200"
+      "taiga": "2022-10-21 14:24:42 +0200",
+      "plains": "2022-10-27 21:38:41 +0200"
     },
     "done": false
   },
@@ -500,6 +515,12 @@
   "comforts:sleeping_bag_light_blue_from_white": {
     "criteria": {
       "has_the_recipe": "2022-10-21 14:16:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-10-24 22:31:59 +0200"
     },
     "done": true
   },

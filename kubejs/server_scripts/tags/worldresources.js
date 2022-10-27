@@ -8,7 +8,7 @@
  * 
  */
 
-onEvent('tags.items', event => {
+ServerEvents.tags('item', event => {
 
     // ------------------ Blocks ------------------ \\
 

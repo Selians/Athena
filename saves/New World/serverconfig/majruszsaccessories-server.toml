@@ -2,10 +2,10 @@
 [AdventurersGuide]
 	#Extra multiplier for number of items acquired from chests.
 	#Range: 0.0 ~ 10.0
-	chest_size_bonus = 1.2
+	chest_size_bonus = 0.8
 	#Chance for Adventurer's Guide to spawn in any chest.
 	#Range: 0.0 ~ 1.0
-	spawn_chance = 0.005
+	spawn_chance = 5.0E-4
 	#Price the villager will pay for this accessory (requires world/game restart).
 	#Range: 1 ~ 32
 	trade_price = 7
@@ -74,7 +74,7 @@
 	double_crops_chance = 0.25
 	#Chance for Tamed Potato Beetle to drop from crops.
 	#Range: 0.0 ~ 1.0
-	drop_chance = 0.002
+	drop_chance = 2.0E-4
 	#Price the villager will pay for this accessory (requires world/game restart).
 	#Range: 1 ~ 32
 	trade_price = 7
