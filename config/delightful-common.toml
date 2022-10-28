@@ -40,6 +40,11 @@
 	thyrium_knife = true
 	tin_knife = true
 	warden_knife = true
+	experience_knife = true
+	gilded_quartz_knife = true
+	kiwano_knife = true
+	leaf_knife = true
+	zinc_knife = true
 
 [Cabinets]
 	basalt_cabinet = true
