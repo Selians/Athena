@@ -2,10 +2,10 @@
 [Client]
 	#Defines the global default fog start value
 	#Range: 0.01 ~ 100.0
-	globalfogstart = 100.0
+	globalfogstart = 5.0
 	#Defines the global default fog density value. At 1.0, the fog end is at render distance. At 0, there is no fog
 	#Range: 0.01 ~ 100.0
-	globalfogdensity = 1.0
+	globalfogdensity = 0.01
 	#Defines a specific fog start and density per biome. Entries are comma separated, structured like "<biomeid>,<fog start>,<fog end>"
 	#
 	#Example: "minecraft:plains,0.1,1.2", "minecraft:nether_wastes,0,0.5"
