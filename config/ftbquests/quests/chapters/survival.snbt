@@ -6,46 +6,5 @@
 	title: "Survival"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [
-		{
-			x: -6.5d
-			y: 0.0d
-			id: "50EDD171D34B8EBF"
-			tasks: [{
-				id: "7F1F85E8494862FD"
-				type: "questsadditions:break"
-				block_type: 0
-				block: "minecraft:dirt"
-				value: 100L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "7F11AEB5912CE4AF"
-				type: "gamestage"
-				auto: "invisible"
-				stage: ""
-			}]
-		}
-		{
-			x: -3.0d
-			y: 0.0d
-			hide_dependency_lines: false
-			hide: true
-			id: "5D0ED205E9FD60AB"
-			tasks: [{
-				id: "6F8FFDBC182528FB"
-				type: "questsadditions:place"
-				block_type: 0
-				block: "minecraft:dirt"
-				value: 100L
-				replaced: "minecraft:air"
-				replace: false
-			}]
-			rewards: [{
-				id: "5B75F9A76105A73C"
-				type: "toast"
-				description: ""
-			}]
-		}
-	]
+	quests: [ ]
 }
