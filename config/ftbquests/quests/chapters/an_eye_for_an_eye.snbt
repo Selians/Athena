@@ -1,0 +1,140 @@
+{
+	id: "14B71BBF36706779"
+	group: "1D8F1A483208D022"
+	order_index: 0
+	filename: "an_eye_for_an_eye"
+	title: "An eye for an eye"
+	icon: "minecraft:ender_eye"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "So it begins... to get to the end"
+			x: -1.0d
+			y: -1.0d
+			description: ["Before I send you to your doo... on a journey, I would like you to collect the following..."]
+			dependency_requirement: "one_completed"
+			id: "6BE51CCA38EACD3D"
+			tasks: [{
+				id: "45075A3D8A8144EE"
+				type: "checkmark"
+				title: "Please read below"
+			}]
+			rewards: [{
+				id: "484C04B53A490EA3"
+				type: "item"
+				title: "Take notes if you like"
+				item: "minecraft:writable_book"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			id: "5190083A3B76CB78"
+			tasks: [{
+				id: "340F9A68170D3943"
+				type: "dimension"
+				icon: "minecraft:ender_eye"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["6BE51CCA38EACD3D"]
+			id: "0B9C8474DEBDC302"
+			tasks: [{
+				id: "3749916BCE784200"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["6BE51CCA38EACD3D"]
+			id: "4D4BEE297C836953"
+			tasks: [{
+				id: "2C35D6904546A4A1"
+				type: "item"
+				item: "structurecompass:structure_compass"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "300BE8CD7B9D7470"
+			tasks: [{
+				id: "1078052702B175AD"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Quite hard-headed"
+			icon: {
+				id: "minecraft:iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			id: "0510BDFAE92ED05C"
+			tasks: [{
+				id: "2F99B56B2EB8F63F"
+				type: "item"
+				item: {
+					id: "minecraft:iron_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "24AFE69E77DF8CE0"
+			tasks: [{
+				id: "5B6B4A919129EEC5"
+				type: "item"
+				item: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "50C8EDAEF2373482"
+			tasks: [{
+				id: "3752D5E7BB73D62A"
+				type: "item"
+				item: {
+					id: "minecraft:iron_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

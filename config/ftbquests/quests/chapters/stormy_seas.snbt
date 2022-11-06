@@ -1,0 +1,57 @@
+{
+	id: "33BB5B6BB5237624"
+	group: "1D8F1A483208D022"
+	order_index: 1
+	filename: "stormy_seas"
+	title: "Stormy seas"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Eye, eye, captain"
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"This ghost has been a menace, even before she was dead..."
+				"She does have some... otherworldly insight. Maybe she can point you in the right direction."
+			]
+			id: "45C0DF67856B19AB"
+			tasks: [{
+				id: "62FDE7C83D6892EB"
+				type: "kill"
+				title: "Banish the ghost of captain Cornelia"
+				icon: {
+					id: "ob_aquamirae:three_bolt_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "ob_aquamirae:captain_cornelia"
+				value: 1L
+			}]
+			rewards: [{
+				id: "083BAF09954EA635"
+				type: "item"
+				item: {
+					id: "endrem:exotic_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "0F128842DE224F9E"
+			tasks: [{
+				id: "3D3949FF2D989A00"
+				type: "biome"
+				title: "It's a bit chilly"
+				biome: "minecraft:plains"
+			}]
+		}
+	]
+}
