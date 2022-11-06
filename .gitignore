@@ -3,4 +3,6 @@ journeymap/
 saves/
 logs/
 usercache.json
+usernamecache.json
 options.txt
+screenshots/
